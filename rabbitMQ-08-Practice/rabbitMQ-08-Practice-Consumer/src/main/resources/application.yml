@@ -1,0 +1,22 @@
+server:
+  port: 8001
+  servlet:
+    context-path: /practice-consumer
+
+spring:
+  rabbitmq:
+    addresses: 36.137.128.27:8071,36.137.128.27:8072,36.137.128.27:8073
+    username: admin
+    password: admin
+    virtual-host: /
+    listener:
+      simple:
+        prefetch: 1
+  # 邮件配置
+  mail:
+    host: smtp.qq.com #邮件服务器 smtp.qq.com
+    username: 2152188721@qq.com #发送人用户名XXXXXXX@qq.com
+    default-encoding: UTF-8 #字符编码
+    password: dpmsffhnnyabecia  #邮箱授权码 XXXIX
+    port: 25 #端口
+

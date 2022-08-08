@@ -1,0 +1,15 @@
+server:
+  port: 8000
+  servlet:
+    context-path: /practice-producer
+
+spring:
+  rabbitmq:
+    addresses: 36.137.128.27:8071,36.137.128.27:8072,36.137.128.27:8073
+    username: admin
+    password: admin
+    virtual-host: /
+    publisher-confirm-type: CORRELATED
+    publisher-returns: true
+    template:
+      mandatory: true
