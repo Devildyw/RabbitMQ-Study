@@ -5,7 +5,7 @@ server:
 
 spring:
   rabbitmq:
-    addresses: 36.137.128.27:8071,36.137.128.27:8072,36.137.128.27:8073
+    addresses: localhost:8071,localhost:8072,localhost:8073
     username: admin
     password: admin
     virtual-host: /

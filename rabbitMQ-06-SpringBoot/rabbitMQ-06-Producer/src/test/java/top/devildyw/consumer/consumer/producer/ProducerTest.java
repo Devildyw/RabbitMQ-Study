@@ -3,7 +3,7 @@ package top.devildyw.consumer.consumer.producer;
 import org.junit.jupiter.api.Test;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.boot.test.context.SpringBootTest;
-import top.devildyw.consumer.consumer.producer.config.RabbitMQConfig;
+import top.devildyw.producer.config.RabbitMQConfig;
 
 import javax.annotation.Resource;
 
